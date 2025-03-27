@@ -1,0 +1,120 @@
+.dynamic-search-cards {
+    background: #d9dafd;
+}
+
+.dynamic-search-cards__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.dynamic-search-cards__title {
+    color: #010367;
+    text-align: center;
+}
+
+.dynamic-search-cards__card {
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dynamic-search-cards__card img {
+    /* width: 320px; */
+    /* height: 160px; */
+    /* aspect-ratio: 1/2; */
+}
+
+.dynamic-search-cards__card-content {
+    padding: 1rem;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6999592073157388) 32%);
+}
+
+.dynamic-search-cards__tags .dynamic-search-cards__genre:hover {
+    cursor: pointer;
+}
+.dynamic-search-cards__tags .dynamic-search-cards__genre.selected {
+    background: #5e41e7;
+}
+
+.dynamic-search-cards__genre {
+    background: #010367;
+    padding: 6px 10px;
+    border: solid 2px #d2ff00;
+    margin: 4px;
+    border-radius: 18px;
+    white-space: nowrap;
+    display: inline-block;
+    color: white;
+}
+
+.dynamic-search-cards__description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.dynamic-search-cards__input {
+    font-size: 32px;
+    font-weight: bold;
+    color: #010367;
+    border: solid 2px #010367;
+    border-radius: 20px;
+    padding-inline: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+}
+
+.dynamic-search-cards__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.dynamic-search-cards__iconsearch {
+    border: solid 2px #010367;
+    border-left: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 62px;
+    cursor: pointer;
+}
+
+.dynamic-search-cards__iconsearch:hover g {
+    transform: scale(2.4);
+}
+
+.dynamic-search-cards__tags {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .dynamic-search-cards__container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}

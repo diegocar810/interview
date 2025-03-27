@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/interview" mode="merge"/>
+    <filter root="/content/interview" mode="merge"/>
+    <filter root="/content/dam/interview" mode="merge">
+        <exclude pattern="/content/dam/interview(/.*)?"/>
+        <include pattern="/content/dam/interview/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/interview/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/interview" mode="merge"/>
+</workspaceFilter>

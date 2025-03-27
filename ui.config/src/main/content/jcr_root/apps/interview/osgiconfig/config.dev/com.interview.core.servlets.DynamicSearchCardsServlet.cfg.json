@@ -1,0 +1,5 @@
+{
+  "apiUrl": "https://movie-database-api1.p.rapidapi.com/list_movies.json",
+  "xRapidapiHost": "movie-database-api1.p.rapidapi.com",
+  "xRapidapiKey": "40c9572699msh003f340f4d57730p1d535ejsn8904b5137217"
+}
