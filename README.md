@@ -124,3 +124,7 @@ A ClientLib will consist of the following files and directories:
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+
+## Conten Package
+
+[`aconten-dynamic-search-cards-1.0.0.zip`](https://github.com/user-attachments/files/19492047/conten-dynamic-search-cards-1.0.0.zip)
